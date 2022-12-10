@@ -27,6 +27,7 @@ public class TestBy {
 	
 	
 		LoginBy  lo = new LoginBy(driver);
+		Thread.sleep();
 	   
 	   lo.login();
 	   lo.mobile();
